@@ -1,0 +1,72 @@
+<!-- Not implemented yet!  -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Profile</title>
+	<link href="styles-2.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <nav>
+		<ol>
+	        <li class="crumb"><a href="./home.html">Home</a></li>
+	        <li class="crumb"><a href="./about.html">About</a></li>
+	    </ol>
+	</nav>
+
+    <content id="main">
+     <img src=" https://drive.google.com/uc?export=view&id=1-4LP0hFMNnPS2GvHUUOUMxcpG2FYATJk"/>
+     <h3>Hey, my name is Kylee! Welcome to my profile!Lemme tell you a bit about myself!</h3>
+     
+     <div id="fav-things">
+        <button class="btn" id="color">My Favorite Color</button>
+        <button class="btn" id="place">My Favorite Place</button>
+        <button class="btn" id="ritual">My Favorite Ritual</button>
+     </div>
+     
+     <div class="about-me">
+
+        <ol id="fav"><h4>Favorite Things To Do:</h4>
+            <li>Play Video Games</li>
+            <li>Listen to Audiobooks </li>
+            <li>Cross-stitch</li>
+            <li>Watch Ghibli Movies With My Friends</li>
+        </ol>
+       
+        <ul id="jobs"> <h4>Past Jobs:</h4>
+            <li>Lawn-mowing</li>
+            <li>Babysitting</li>
+            <li>Custodian at Weber Highschool</li>
+            <li>Sandwich "Artist" at Subway</li>
+            <li>Pharmacy Technician at Walgreens</li>
+            <li>Call Center Pharmacy Technician at Associated Foods</li>
+        </ul>
+
+     </div>
+
+     <div >
+        <h4>Now, tell me which Pokemon spinoff you think is best!</h4>
+        <form id="best-pkmn-gm">
+            <label for="ranger">Pokemon Ranger</label>
+            <input type="radio" id="ranger" name = "fav_pkmn" value="ranger">
+            <label for="snap">Pokemon Snap</label>
+            <input type="radio" id="snap" name="fav_pkmn" value="snap">
+            <label id= mystery for="mystery">Pokemon Mystery Dungeon **this is the correct choice**</label>
+            <input type="radio" id="mystery" name="fav_pkmn" value="mystery">
+            <label for="conquest">Pokemon Conquest</label>
+            <input type="radio" id="conquest" name="fav_pkmn" value="conquest">
+            <label for="pinball"> Pokemon Pinball</label>
+            <input type="radio" id="pinball" name="fav_pkmn" value="pinball">
+            <input type="submit" value="submit">
+        </form>
+     </div>
+    
+    </content>
+    
+
+    <a href="./home.html"><< Back </a>
+
+    <script src="profile.js"></script>
+</body>
+</html>
