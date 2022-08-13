@@ -12,7 +12,7 @@ let form = document.querySelector('#contact');
 
 form.addEventListener('submit', handleSubmit);
 
-let img = document.querySelector('#grumpyCat')
+let img = document.querySelector('#kecleon')
 img.addEventListener('mouseover', () =>{
 	alert('You look nice today!')
 })
